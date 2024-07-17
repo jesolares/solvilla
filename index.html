@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Bienes Raíces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .property-listing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .property-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 300px;
+        }
+        .property-item img {
+            width: 100%;
+        }
+        .property-details {
+            padding: 15px;
+        }
+        .property-comments {
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .comment {
+            border-top: 1px solid #eee;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sitio de Bienes Raíces</h1>
+    </header>
+    <div class="container">
+        <h2>Listado de Propiedades</h2>
+        <div class="property-listing">
+            <!-- Propiedad 1 -->
+            <div class="property-item">
+                <img src="path/to/image1.jpg" alt="Imagen de la propiedad 1">
+                <div class="property-details">
+                    <h3>Propiedad 1</h3>
+                    <p>Descripción breve de la propiedad 1.</p>
+                    <p><strong>Precio:</strong> $100,000</p>
+                </div>
+                <div class="property-comments">
+                    <h4>Comentarios de Clientes</h4>
+                    <div class="comment">
+                        <p><strong>Cliente 1:</strong> Comentario del cliente 1 sobre la propiedad.</p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Cliente 2:</strong> Comentario del cliente 2 sobre la propiedad.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Propiedad 2 -->
+            <div class="property-item">
+                <img src="path/to/image2.jpg" alt="Imagen de la propiedad 2">
+                <div class="property-details">
+                    <h3>Propiedad 2</h3>
+                    <p>Descripción breve de la propiedad 2.</p>
+                    <p><strong>Precio:</strong> $200,000</p>
+                </div>
+                <div class="property-comments">
+                    <h4>Comentarios de Clientes</h4>
+                    <div class="comment">
+                        <p><strong>Cliente 3:</strong> Comentario del cliente 3 sobre la propiedad.</p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Cliente 4:</strong> Comentario del cliente 4 sobre la propiedad.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Añadir más propiedades según sea necesario -->
+        </div>
+    </div>
+</body>
+</html>
